@@ -150,3 +150,41 @@ body {
     color: #fff;
     line-height: 30px;
 }
+.catalogue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.catalogue-box {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.glass-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    
+
+}
+.glass-title4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff; 
+}
+.glass-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff; 
+    text-align: justify;
+}
