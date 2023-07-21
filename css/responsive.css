@@ -2,4 +2,7 @@
     .button2 {
         display: none;
     }
+    .bg-content {
+        top: 10%;
+    }
 }

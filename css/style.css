@@ -26,7 +26,7 @@
     
 }
  
-.bg-image {
+.image {
     width: 100%;
   
 }
@@ -37,9 +37,78 @@
     position: absolute;
     top: 80%;
     left: 40%;
-   
+    
 }
 .button2 {
     max-width: 100px;
     height: 100px;
+    
+}
+
+.bg-image {
+    background-image: url('../images/brandhistorystory2n-a9eecfa8.png');
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.section2 {
+    margin: 0;
+    
+}
+.bg-content {
+    position: absolute;
+    max-width: 300px;
+    height: 500px;
+    top: 20%;
+    left: 10%;
+}
+.bg-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    
+}
+.bg-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px; 
+}
+.discovery-img {
+    max-width: 700px;
+    height: 500px;
+}
+.discovery-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.discovery-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+}
+.discovery-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    gap: 18px;
 }
