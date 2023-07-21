@@ -188,3 +188,50 @@ body {
     color: #fff; 
     text-align: justify;
 }
+.coma {
+    background-image: url('../images/davidComa.jpg');
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+    
+}
+.coma-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 1%;
+    gap: 10px;
+    
+}
+.coma-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.fa-solid {
+   color: #fff;
+   font-size: 30px;
+   
+}
+.coma-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff; 
+     
+}
+.coma-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+    
+}
