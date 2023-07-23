@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: #292d39;;
 }
@@ -9,7 +12,12 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: sticky; top: 0;
     
+    
+}
+div.sticky {
+    position: sticky;
 }
 .ul-item {
     display: flex;
@@ -28,7 +36,11 @@ body {
     color: #fff;
     
 }
- 
+a:hover {
+   background-color:lightblue;
+    
+}
+
 .image {
     width: 100%;
   
@@ -150,12 +162,24 @@ body {
     color: #fff;
     line-height: 30px;
 }
+
 .catalogue {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 60px;
+    justify-content: center;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    
 
+}
+.catalogue-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #fff;
+    text-align: center; 
 }
 .catalogue-box {
     max-width: 250px;
@@ -165,6 +189,8 @@ body {
     align-items: center;
     align-content: center;
     gap: 10px;
+    margin-bottom: 10px;
+    
 }
 .glass-title {
     font-family: 'Roboto', sans-serif;
@@ -187,6 +213,20 @@ body {
     font-size: 15px;
     color: #fff; 
     text-align: justify;
+}
+.cart {
+    background-color: floralwhite;
+    width: 200px;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+.cart:hover {
+    background-color: black;
+    
+}
+.buy:hover {
+    color: #fff;
 }
 .coma {
     background-image: url('../images/davidComa.jpg');
@@ -235,3 +275,63 @@ body {
     color: #fff;
     
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-wraper-h {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input-element {
+    width: 410px;
+    height: 76px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    outline: none;
+}
+.textarea {
+    max-width: 840px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+.btn {
+    max-width: 840px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#007a70;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    outline: none;
+}
+
