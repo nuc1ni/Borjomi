@@ -179,21 +179,22 @@ body {
 
 .catalogue {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
+    align-items: center;
     border: 3px solid #fff;
-    border-radius: 3px;
-    
-
+}
+.box {
+    border: 3px solid #fff;
 }
 .catalogue-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 30px;
     color: #fff;
-    text-align: center; 
+    text-align: center;  
 }
 .catalogue-box {
     max-width: 250px;
@@ -204,6 +205,15 @@ body {
     align-content: center;
     gap: 10px;
     margin-bottom: 10px;
+    
+}
+.catalogue-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    
     
 }
 .glass-title {
@@ -241,6 +251,9 @@ body {
 }
 .buy:hover {
     color: #fff;
+}
+.section5 {
+    width: 100%;
 }
 .coma {
     background-image: url('../images/davidComa.jpg');
