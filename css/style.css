@@ -12,13 +12,11 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: sticky; top: 0;
+    
     
     
 }
-div.sticky {
-    position: sticky;
-}
+
 .ul-item {
     display: flex;
     flex-direction: row;
@@ -36,7 +34,7 @@ div.sticky {
     color: #fff;
     
 }
-a:hover {
+.a-item:hover {
    background-color:lightblue;
     
 }
@@ -50,14 +48,30 @@ a:hover {
 }
 .button {
     position: absolute;
+    display: flex;
+    text-align: center;
     top: 80%;
     left: 40%;
-    
-}
-.button2 {
+    background-image: url('../images/buble.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     max-width: 100px;
     height: 100px;
     
+}
+
+.watch-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .bg-image {
@@ -334,4 +348,110 @@ a:hover {
     line-height: 30px;
     outline: none;
 }
-
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+    
+}
+.right-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: last baseline;
+}
+.adress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.adress-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.contact-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.tel {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.email {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    
+}
+.map {
+    width: 100%;
+    margin-top: 20px;
+}
+.footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5%;
+}
+.footer-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+hr.line {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 30px;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.watch {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.footer-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.p {
+    margin-left: 5%;
+}
