@@ -1,8 +1,26 @@
-@media (min-width: 320px)  and (max-width:834px) {
+@media (min-width: 320px)  and (max-width:870px) {
     .button2 {
         display: none;
     }
     .bg-content {
         top: 10%;
+    }
+    
+    .burger {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .header-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .ul-item {
+        display: flex;
+        flex-direction: column;
+    }
+    nav.activeNav {
+        display: block;
     }
 }
