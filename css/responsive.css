@@ -46,7 +46,7 @@
         
     }
     .contact {
-        margin-top: -350px;
+        
         flex-direction: column;
     }
     .input-element {
@@ -90,9 +90,7 @@
     .history-image {
         width: 100%;
     }
-    .contact {
-        margin-top: -250px;
-    }
+    
     .input-element {
         width: 100%;
     }
@@ -128,9 +126,7 @@
     .history-content {
         align-items: center;
     }
-    .contact {
-        margin-top: -150px;
-    }
+    
     .input-element {
         width: 100%;
     }
