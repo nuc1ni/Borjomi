@@ -1,26 +1,54 @@
-@media (min-width: 320px)  and (max-width:870px) {
-    .button2 {
+@media (min-width: 320px)  and (max-width:480px) {
+    .button {
         display: none;
     }
     .bg-content {
         top: 10%;
     }
     
-    .burger {
-        display: block;
-    }
+    
     nav {
         display: none;
     }
     .header-container {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
-    .ul-item {
-        display: flex;
+    ul {
         flex-direction: column;
     }
     nav.activeNav {
         display: block;
+    }
+    .burger {
+        display: block;
+        
+    }
+    .discovery {
+        flex-direction: column;
+        
+    }
+    .discovery-img {
+        width: 100%;
+    }
+    .history {
+        flex-direction: column;
+    }
+    .history-image {
+        width: 100%;
+    }
+    .coma {
+        width: 100%;
+        
+    }
+    .coma-box {
+        display: none
+
+        
+    }
+    .contact {
+        margin-top: -350px;
+    }
+    .input-element {
+        width: 100%;
     }
 }
