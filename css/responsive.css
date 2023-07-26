@@ -47,6 +47,45 @@
     }
     .contact {
         margin-top: -350px;
+        flex-direction: column;
+    }
+    .input-element {
+        width: 100%;
+    }
+}
+@media (min-width: 481px)  and (max-width:768px) {
+    nav {
+        display: none;
+    }
+    .header-container {
+        flex-direction: column;
+        align-items: first baseline baseline;
+    }
+    ul {
+        flex-direction: column;
+    }
+    nav.activeNav {
+        display: block;
+    }
+    .burger {
+        display: block;
+        
+    }
+    .discovery {
+        flex-direction: column;
+        
+    }
+    .discovery-img {
+        width: 100%;
+    }
+    .history {
+        flex-direction: column;
+    }
+    .history-image {
+        width: 100%;
+    }
+    .contact {
+        margin-top: -250px;
     }
     .input-element {
         width: 100%;
