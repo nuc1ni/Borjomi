@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (min-width: 320px)  and (max-width:480px) {
     .button {
         display: none;
@@ -11,10 +18,16 @@
         display: none;
     }
     .header-container {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     ul {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     nav.activeNav {
         display: block;
@@ -24,14 +37,20 @@
         
     }
     .discovery {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         
     }
     .discovery-img {
         width: 100%;
     }
     .history {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .history-image {
         width: 100%;
@@ -47,7 +66,13 @@
     }
     .contact {
         
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        
+        -webkit-box-direction: normal;
+        
+            -ms-flex-direction: column;
+        
+                flex-direction: column;
     }
     .input-element {
         width: 100%;
@@ -64,11 +89,19 @@
         display: none;
     }
     .header-container {
-        flex-direction: column;
-        align-items: first baseline baseline;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: first baseline baseline;
+            -ms-flex-align: first baseline baseline;
+                align-items: first baseline baseline;
     }
     ul {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     nav.activeNav {
         display: block;
@@ -78,14 +111,20 @@
         
     }
     .discovery {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         
     }
     .discovery-img {
         width: 100%;
     }
     .history {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .history-image {
         width: 100%;
@@ -105,26 +144,42 @@
         gap: 6px;
     }
     .discovery {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         
-        align-items: center;
+        -webkit-box-align: center;
+        
+            -ms-flex-align: center;
+        
+                align-items: center;
         
     }
     .discovery-content {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .discovery-img {
         width: 100%;
     }
     .history {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .history-image {
         width: 100%;
     }
     .history-content {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .input-element {
